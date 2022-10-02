@@ -1,6 +1,8 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
+
+// ! Controller отвечает за чистоту данных которую он получает|передает
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
